@@ -7,9 +7,12 @@ requires "warnings" => "0";
 
 on 'test' => sub {
   requires "File::Spec" => "0";
+  requires "HTTP::Request::Common" => "0";
   requires "JSON::PP" => "2.00";
   requires "Module::Metadata" => "0";
   requires "Path::Tiny" => "0.004";
+  requires "Plack::Builder" => "0";
+  requires "Plack::Test" => "0";
   requires "Test::More" => "0";
   requires "Test::Most" => "0";
   requires "Time::Piece" => "1.16";
