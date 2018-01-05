@@ -32,6 +32,5 @@ my $app = sub {
 
 builder {
     enable "TimeOverHTTP";
-    enable "Head";
     $app;
 };
