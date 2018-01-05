@@ -1,5 +1,7 @@
 package Plack::Middleware::TimeOverHTTP;
 
+# ABSTRACT: time over HTTP middleware
+
 use strict;
 use warnings;
 
@@ -30,3 +32,33 @@ sub call {
 }
 
 1;
+
+=head1 SYNOPSIS
+
+  use Plack::Builder;
+
+  my $app = sub { ... };
+
+  builder {
+
+    enable "TimeOverHTTP";
+
+    $app;
+  };
+
+=head1 DESCRIPTION
+
+This middleware adds a simplified implementation of the Time
+over HTTP specification at the URL “/.well-known/time”.
+
+It does not enforce any restrictions on the request headers.
+
+This middleware does not implement rate limiting or restrictions based
+on IP address. You will need to use additional middleware for that.
+
+=head1 SEE ALSO
+
+The "Time Over HTTPS specification" at
+L<http://phk.freebsd.dk/time/20151129.html>.
+
+=cut
