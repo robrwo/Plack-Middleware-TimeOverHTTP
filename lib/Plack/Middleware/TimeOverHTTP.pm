@@ -10,6 +10,8 @@ use parent 'Plack::Middleware';
 use HTTP::Status qw/ :constants /;
 use Time::HiRes qw/ clock_gettime CLOCK_REALTIME /;
 
+our $VERSION = 'v0.1.0';
+
 sub call {
     my ( $self, $env ) = @_;
 
