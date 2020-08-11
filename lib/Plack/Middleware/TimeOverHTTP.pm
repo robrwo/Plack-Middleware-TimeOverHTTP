@@ -2,6 +2,8 @@ package Plack::Middleware::TimeOverHTTP;
 
 # ABSTRACT: time over HTTP middleware
 
+use v5.8.5;
+
 use strict;
 use warnings;
 

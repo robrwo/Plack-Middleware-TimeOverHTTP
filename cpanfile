@@ -5,6 +5,7 @@ requires "HTTP::Status" => "0";
 requires "Plack::Middleware" => "0";
 requires "Time::HiRes" => "1.9764";
 requires "parent" => "0";
+requires "perl" => "v5.8.5";
 requires "strict" => "0";
 requires "warnings" => "0";
 
