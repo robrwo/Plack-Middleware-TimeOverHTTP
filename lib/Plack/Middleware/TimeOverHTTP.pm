@@ -8,7 +8,7 @@ use warnings;
 use parent 'Plack::Middleware';
 
 use HTTP::Status qw/ :constants /;
-use Time::HiRes qw/ clock_gettime CLOCK_REALTIME /;
+use Time::HiRes 1.9764 qw/ clock_gettime CLOCK_REALTIME /;
 
 our $VERSION = 'v0.1.1';
 
