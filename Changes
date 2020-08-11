@@ -1,6 +1,8 @@
 Revision history for Plack-Middleware-TimeOverHTTP
 
 {{$NEXT}}
+
+v0.1.1    2020-08-11 17:18:03+01:00 Europe/London
   [Enhancements]
   - Bumped minimum version of Time::HiRes to 1.9764 for Win32 support.
 
