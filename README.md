@@ -34,7 +34,7 @@ on IP address. You will need to use additional middleware for that.
 # SEE ALSO
 
 The "Time Over HTTPS specification" at
-[http://phk.freebsd.dk/time/20151129.html](http://phk.freebsd.dk/time/20151129.html).
+[http://phk.freebsd.dk/time/20151129/](http://phk.freebsd.dk/time/20151129/).
 
 # AUTHOR
 

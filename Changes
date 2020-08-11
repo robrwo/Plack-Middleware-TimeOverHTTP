@@ -1,6 +1,8 @@
 Revision history for Plack-Middleware-TimeOverHTTP
 
 {{$NEXT}}
+  [Documentation]
+  - Updated link to Tome over HTTPS specification.
 
 v0.1.1    2020-08-11 17:18:03+01:00 Europe/London
   [Enhancements]

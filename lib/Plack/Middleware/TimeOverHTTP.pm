@@ -63,6 +63,6 @@ on IP address. You will need to use additional middleware for that.
 =head1 SEE ALSO
 
 The "Time Over HTTPS specification" at
-L<http://phk.freebsd.dk/time/20151129.html>.
+L<http://phk.freebsd.dk/time/20151129/>.
 
 =cut
